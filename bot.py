@@ -1,19 +1,16 @@
 # bot.py
 
 from chatterbot import ChatBot
-from chatterbot.trainers import ListTrainer
+from chatterbot.trainers import ChatterBotCorpusTrainer
+#from cleaner import clean_corpus
+
+CORPUS_FILE = "C:\\Users\\sowmi\\Interactive-chat\\corpusdata.txt"
 
 chatbot = ChatBot("Chatpot")
 
-trainer = ListTrainer(chatbot)
-trainer.train([
-    "Hi",
-    "Welcome, friend 🤗",
-])
-trainer.train([
-    "Are you a plant?",
-    "No, I'm the pot below the plant!",
-])
+trainer = ChatterBotCorpusTrainer(chatbot)
+
+trainer.train(CORPUS_FILE)
 
 exit_conditions = (":q", "quit", "exit")
 while True:
@@ -21,4 +18,4 @@ while True:
     if query in exit_conditions:
         break
     else:
-        print(f"🪴 {chatbot.get_response(query)}")
+        print(f">>> {chatbot.get_response(query)}")
