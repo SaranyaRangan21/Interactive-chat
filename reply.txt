@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+</head>
+
+<body style="text-align:center;">
+
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="ex:what is AI?">
+            <label for="floatingInput"></label>
+          </div>
+      </div>
+
+      <div class="search">
+        <style>{padding:20px}</style>
+      </div>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center" style="margin-top:30px">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Back</button>
+      </div>
+</body>
+
+
