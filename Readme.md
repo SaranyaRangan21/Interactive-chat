@@ -1,4 +1,4 @@
-<p align="center"><img src="Icdjango/Interchat/static/ICimage.webp" width="150"/></p>
+<p align="center"><img src="ICdjango/Interchat/static/ICimage.webp" width="150"/></p>
 
 <h2 align="center"><b>Interactive Chat</b></h2>
 <h4 align="center">Software application that simulates text conversations</h4>
@@ -6,7 +6,7 @@
 ## Interactive chat 
 Interactive chat can provide real-time customer support which can be a valuable asset in many industries .It supports general conversations, you can build and train a self-learning interactive chat with real user data. 
 
-## feature:
+## Feature:
 ✓ AI driven response  
 ✓ Trained with custom data  
 ✓ UI design
