@@ -1,4 +1,4 @@
-<p align="center"><img src="ICdjango/static/ICimage.png" width="150"/></p>
+<p align="center"><img src="ICdjango/static/ICimage.webp" width="150"/></p>
 
 <h2 align="center"><b>Interactive Chat</b></h2>
 <h4 align="center">Software application that simulates text conversations</h4>
